@@ -1,0 +1,18 @@
+{
+  "name": "licensing-server",
+  "version": "1.0.0",
+  "description": "For handling license keys",
+  "main": "server.js",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.4.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Austin Henderson",
+  "license": "ISC"
+}
